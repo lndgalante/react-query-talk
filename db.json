@@ -1,0 +1,64 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "title": "Mayer LLC",
+      "ceo": "Domenico Auer"
+    },
+    {
+      "id": 2,
+      "title": "Reilly, Dickens and Simonis",
+      "ceo": "Elnora Trantow"
+    },
+    {
+      "id": 3,
+      "title": "Christiansen, Weimann and Predovic",
+      "ceo": "Bulah Swift"
+    },
+    {
+      "id": 4,
+      "title": "Kessler, Tillman and Maggio",
+      "ceo": "Elvis Lehner"
+    }
+  ],
+  "employees": [
+    {
+      "id": 12,
+      "name": "Ruth Gottlieb",
+      "job": "Designer"
+    },
+    {
+      "id": 33,
+      "name": "Mr. Amina Gusikowski",
+      "job": "Administrator"
+    },
+    {
+      "id": 21,
+      "name": "Alexa Klocko",
+      "job": "Executive"
+    },
+    {
+      "id": 93,
+      "name": "Anabelle Bartoletti",
+      "job": "Officer"
+    },
+    {
+      "id": 94
+    },
+    {
+      "id": 95
+    },
+    {
+      "id": 96
+    },
+    {
+      "id": 97
+    },
+    {
+      "id": 98
+    },
+    {
+      "id": 99
+    }
+  ]
+}
