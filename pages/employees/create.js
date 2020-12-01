@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import { Stack, Text, Input, Button } from '@chakra-ui/react'
 import { useMutation, queryCache } from 'react-query'
 
 async function createEmployee(employeeData) {
-  console.log('\n ~ createEmployee ~ employeeData', employeeData)
+  // FIXME: POST to json-server
+
   const response = await fetch(`http://localhost:3001/employees`, {
     method: 'POST',
     body: JSON.stringify(employeeData),
@@ -23,8 +23,6 @@ function EmployeeCreate() {
     onSuccess: async (successData) => {
       await queryCache.invalidateQueries('employees')
       await queryCache.invalidateQueries(['employees', successData.id])
-
-      router.push('/')
     },
   })
 

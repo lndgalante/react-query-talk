@@ -77,7 +77,7 @@
 
 - Otros hooks para investigar: usePagination, useQueries
 
-9. Links
+# Links
 
 - Más info:
 
